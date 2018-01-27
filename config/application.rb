@@ -21,6 +21,7 @@ module AlphaBlog
     # config.i18n.default_locale = :de
     
   end
-     # config/application.rb
-config.assets.initialize_on_precompile = false
 end
+
+   # config/application.rb
+config.assets.initialize_on_precompile = false
