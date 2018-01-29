@@ -38,6 +38,10 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development do 
+gem 'sqlite3'
+end
+
 group :production do 
    gem 'rails_12factor'
 end
